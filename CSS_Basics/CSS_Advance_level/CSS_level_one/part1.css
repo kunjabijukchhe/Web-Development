@@ -1,0 +1,28 @@
+h1{
+  font-family:"Arial";
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  font-style:italic;
+  font-weight: bold;
+}
+/* #two{
+  font-family: fantasy;
+}
+body{
+  font-size: 20px;
+} */
+
+/* 1em=16px
+2em=32px
+1em=12pt
+em=ems
+PT=point*/
+body{
+  font-size: 20px
+}
+#two{
+  font-size: 2.0em;
+}

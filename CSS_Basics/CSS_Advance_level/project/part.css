@@ -1,0 +1,39 @@
+body{
+   background: url("https://sunway.edu.np/wp-content/themes/sunway/img/events_1.jpg") no-repeat;
+   background-size: 100%;
+   margin-top: 10px;
+   text-align: right;
+
+}
+
+a{
+  font-size: 26px;
+  margin-right: 75px;
+  color: white;
+  text-decoration: none;
+}
+
+form{
+  font-size: 32px;
+  text-align: left;
+  margin-top: 100px
+}
+label{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  padding-top: 50px;
+}
+input{
+  border-radius: 5%;
+  font-size: 32px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+#submit{
+  border-radius: 50px;
+  background: #FF9F1C;
+  height: 80px;
+  width: 150px;
+  font-size: 1.2em;
+  margin-bottom: 4px;
+}

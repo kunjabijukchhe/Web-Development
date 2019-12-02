@@ -1,0 +1,20 @@
+body{
+  /* background-color: gray; */
+  background: url(https://img1.10bestmedia.com/Images/Photos/352450/GettyImages-913753556_55_660x440.jpg);
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat;
+}
+
+div{
+  background-color: red;
+  border-color: orange;
+  border-width: 10px;
+  border-style: groove;
+}
+p{
+  color: yellow;
+}
+span{
+  background: green;
+  color: black;
+}

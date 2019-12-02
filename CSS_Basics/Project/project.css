@@ -1,0 +1,56 @@
+
+body{
+  text-align: center;
+  background-color: #022b29;
+
+
+  margin:0px;
+
+  padding-bottom:50px;
+
+  border: 50px solid #03a8a0;
+  border-top: white;
+
+
+}
+h1{
+  font-family: 'Roboto';
+  color: white;
+}
+h2{
+  font-family: 'Roboto';
+  color: white;
+}
+
+p{
+  color: white;
+
+}
+#context{
+  font-size: 20px;
+  font-family: 'Ubuntu';
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 50px;
+}
+label{
+  color: white;
+}
+
+.input{
+  border-radius: 50px;
+  font-size: 32px;
+  margin-bottom: 10px;
+
+}
+
+#sub{text
+  border-radius: 50px;
+  background: #FF9F1C;
+  height: 80px;
+  width: 150px;
+
+  font-size: 1.2em;
+  margin-bottom: 4px;
+
+}

@@ -1,0 +1,41 @@
+h1{
+  font-family: Satisfy;
+
+  text-align: center;
+
+}
+.table{
+  margin: auto;
+
+}
+
+td{
+  background-color: black;
+  height:300px;
+  width: 150px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white;
+}
+
+
+#blue{
+  background-color: #285afc;
+
+}
+#skyblue{
+  background-color: #03f4fc;
+
+}
+#green{
+  background-color: #03fc9d;
+
+}
+#brown{
+  background-color: #50967f;
+
+}
+#red{
+  background-color: #fa4d50;
+
+}
