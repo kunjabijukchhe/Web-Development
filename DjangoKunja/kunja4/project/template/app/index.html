@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DJANGO</title>
+    <link rel="stylesheet" href="{% static "/new/css/style.css" %}">
+  </head>
+  <body>
+    <h1>Django is framework of python!</h1>
+
+    <img src="{% static "/new/images/views.jpg" %}" alt="Not Open!">
+    <div class="django">
+      {%if a %}
+      <table>
+        <thead>
+          <th>Name of C.E.O</th>
+          <th>Web Company Name</th>
+          <th>Website</th>
+
+        </thead>
+        {% for b in a %}
+        <tr>
+          <td>{{b.name}}</td>
+          <td>{{b.webName}}</td>
+          <td>{{b.url}}</td>
+
+        </tr>
+        {% endfor %}
+      </table>
+      {% endif %}
+    </div>
+
+  </body>
+</html>

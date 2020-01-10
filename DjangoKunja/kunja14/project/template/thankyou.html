@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thank You!</title>
+  </head>
+  <body>
+    <h1>THANK YOU!</h1>
+    <h1>Here are the information of the user</h1>
+      {% if users %}
+      <ol>
+        {% for person in users %}
+        <li>User Info:</li>
+        <ul>
+          <li>First Name:{{person.First_name}}</li>
+          <li>Last Name:{{person.Last_name}}</li>
+          <li>Email:{{person.email}}</li>
+        </ul>
+        {% endfor %}
+      </ol>
+
+    {% endif %}
+    {% if users %}
+    <table border="2px solid">
+      <thead>
+      
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </thead>
+      {% for person in users %}
+      <tr>
+
+        <td>{{person.First_name}}</td>
+        <td>{{person.Last_name}}</td>
+        <td>{{person.email}}</td>
+
+      </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+  </body>
+</html>
