@@ -1,0 +1,17 @@
+{% extends 'reviseApp/reviseApp_base.html'%}
+{% block body_block %}
+<h1>
+{% if not form.instance.pk %}
+Create School
+{% else %}
+Update School
+{% endif %}
+</h1>
+  <div class="jumbotron">
+    <form method="post">
+      {{form.as_p}}
+      {% csrf_token %}
+      <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+  </div>
+{% endblock %}

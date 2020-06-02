@@ -1,0 +1,11 @@
+{% extends 'reviseApp/reviseApp_base.html' %}
+{% block body_block %}
+  <div class="jumbotron">
+    <h1>School Page</h1>
+    <ol>
+      {% for school in school_list %}
+          <h3><a href="{{school.id}}"><li>{{school.name}}</a></li></h3>
+      {% endfor %}
+    </ol>
+  </div>
+{% endblock %}

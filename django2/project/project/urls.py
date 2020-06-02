@@ -18,8 +18,14 @@ from django.urls import path,include
 from django.conf.urls import url
 from app import views
 
+
+# urlpatterns = [
+#     url(r'^$',views.index,name='index'),
+#     url(r'app/',include('app.urls')),
+#     path('admin/', admin.site.urls),
+# ]
 urlpatterns = [
     url(r'^$',views.index,name='index'),
-    url(r'app/',include('app.urls')),
-    path('admin/', admin.site.urls),
+    url(r'app1/',include('app.urls')),
+    path(r'admin/', admin.site.urls),
 ]

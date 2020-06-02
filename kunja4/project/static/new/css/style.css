@@ -1,0 +1,17 @@
+h1{
+  color: red;
+}
+img{
+  width: 560px;
+  height: 240px;
+  border: 2px solid red;
+
+}
+table,th,td{
+  border: 2px solid red;
+  margin: auto;
+}
+body{
+  text-align: center;
+  background-color: green;
+}

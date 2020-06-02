@@ -1,0 +1,22 @@
+.firstdiv{
+  color: blue;
+}
+.seconddiv{
+  color: red;
+}
+#outlook{
+  color: green;
+  text-decoration:line-through;
+}
+ul{
+  border-style:dotted;
+  border-width: 5px;
+  border-color: green;
+}
+li a{
+  color: red;
+}
+li a[href="https://www.youtube.com"]{
+  border: 2px solid yellow;
+  color: blue;
+}

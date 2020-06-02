@@ -1,0 +1,32 @@
+<!-- {% load staticfiles %} -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BASE PAGE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <nav class "navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-nav">
+        <div class="jumbotron">
+          <a class="navbar-brand" href="{% url 'app:index' %}">index</a>
+          <a class="navbar-toggler" href="{% url 'admin:index' %}">admin</a>
+          <a class="navbar-toggler" href="{% url 'app:other' %}">other</a>
+          <a href="{% url 'base' %}">Back first page</a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="jumbotron">
+        {% block body_block %}
+
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>

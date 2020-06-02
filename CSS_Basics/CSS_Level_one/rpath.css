@@ -1,0 +1,15 @@
+h1,h4
+{
+  color: blue;
+}
+
+p{
+  color: #1fedd5;
+}
+
+li{
+  color: rgb(237, 31, 31);
+}
+h4{
+  color: rgba(255, 0, 0, 1);
+}

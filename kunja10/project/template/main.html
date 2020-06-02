@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MAIN PAGE</title>
+  </head>
+  <body>
+    <h1>WELCOME TO MAIN PAGE!</h1>
+    <a href="{% url 'app:other' %}">OTHER PAGE</a>
+    <a href="{% url 'admin:index' %}">Admin</a>
+    <p>Click on django for index page!</p>
+    <a href="{% url 'index' %}"><img src="{% static 'django.png' %}" alt=""></a>
+  </body>
+</html>

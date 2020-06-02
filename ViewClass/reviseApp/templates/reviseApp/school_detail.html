@@ -1,0 +1,15 @@
+{% extends 'reviseApp/reviseApp_base.html'%}
+{% block body_block %}
+  <div class="jumbotron">
+    <h1>School Detail</h1>
+    <p>School Name:{{school.name}}</p>
+    <p>Principal:{{school.principal}}</p>
+    <p>Location:{{school.location}}</p>
+      {% for student in school.schools.all %}
+        <p>{{student.name}} who is {{student.age}} years old.</p>
+      {% endfor %}
+  </div>
+  <div class="container">
+  <p><a class="btn btn-warning" href="{% url 'reviseApp:update' pk=school.pk %}">Update</a></p>
+</div>
+{% endblock %}
